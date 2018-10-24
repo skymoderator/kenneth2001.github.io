@@ -64,18 +64,7 @@
     </section>
     <!-- Coundown Section End -->
 
-    <!-- Preloader -->
-    <div id="preloader">
-      <script type="text/javascript">
-        $("#preloader")
-        .countdown("2019/01/01", function(event) {
-          $(this).text(
-            event.strftime('%D days %H:%M:%S')
-          );
-        });
-      </script>
-    </div>
-    <!-- End Preloader -->
+    
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/jquery-min.js"></script>
@@ -105,6 +94,19 @@
           ]
       });
     </script>
-      
+    
+    <!-- Preloader -->
+    <div id="preloader">
+      <script type="text/javascript">
+        $("#preloader")
+        .countdown("2019/01/01", function(event) {
+          $(this).text(
+            event.strftime('%D days %H:%M:%S')
+          );
+        });
+      </script>
+    </div>
+    <!-- End Preloader -->
+    
   </body>
 </html>
